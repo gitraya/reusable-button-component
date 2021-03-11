@@ -30,7 +30,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/gitraya/reusable-button-components/blob/main/assets/overviewfakeportfolio.png)
+![screenshot](https://github.com/gitraya/reusable-button-components/blob/main/public/images/overviewbuttoncomponents.png)
 
 ## Built With
 
