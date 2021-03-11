@@ -19,10 +19,15 @@ body {
 
 header,
 main {
+  display: flex;
+  flex-flow: column nowrap;
   max-width: 100%;
   margin: 0 10%;
 }
 
+.cl-hover {
+  color: #828282;
+}
 .cl-gytwo {
   color: var(--gray-two);
 }
@@ -41,4 +46,31 @@ main {
 
 .logo-devchallenges {
   font-size: 1.5rem;
+}
+
+small {
+  margin: 0.5rem 0;
+  font-family: var(--ubuntu-mono);
+  color: #333333;
+}
+
+.flex.column {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 1rem 0;
+}
+
+.container-btn-demo {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 1rem 0;
+}
+.container-btn-demo:last-of-type {
+  margin-top: 0;
+}
+
+.item-demo {
+  display: flex;
+  flex-direction: column;
+  margin-right: 3rem;
 }
