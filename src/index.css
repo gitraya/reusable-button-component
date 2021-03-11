@@ -48,6 +48,7 @@ main {
   font-size: 1.5rem;
 }
 
+/* Main content styling */
 small {
   margin: 0.5rem 0;
   font-family: var(--ubuntu-mono);
@@ -73,4 +74,22 @@ small {
   display: flex;
   flex-direction: column;
   margin-right: 3rem;
+}
+
+/* Footer styling */
+footer {
+  display: flex;
+  flex-direction: column;
+}
+.copyright {
+  max-width: 100%;
+  margin: 2rem auto;
+  font-family: var(--montserrat);
+  text-align: center;
+  font-weight: 400;
+  color: #bdbdbd;
+}
+.copyright a {
+  color: #333333;
+  text-decoration: none;
 }
